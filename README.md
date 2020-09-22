@@ -25,3 +25,5 @@
 9. or `rm -rf .git` && `git init`
 
 10. start servers
+
+11. Remove ReadMe
