@@ -6,11 +6,17 @@ import * as serviceWorker from "./serviceWorker";
 // Remove this and sematic-ui-react  sematic-ui-css in package.json if you don't want to use
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from "react-router-dom";
+import AuthProvider from "./providers/AuthProvider";
+import { initMiddleware } from "devise-axios";
+
+initMiddleware();
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <AuthProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </AuthProvider>,
   document.getElementById("root")
 );
 
