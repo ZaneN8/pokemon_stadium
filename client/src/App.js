@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Login from "./components/Login";
 import NavBar from "./components/Navbar";
 import NoMatch from "./components/NoMatch";
+import ProtectedRoute from "./components/ProtectedRoute";
 import Register from "./components/Register";
 import SamplesDemo from "./samples/SamplesDemo";
 
