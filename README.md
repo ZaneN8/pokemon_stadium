@@ -1,32 +1,25 @@
-# Starter Project
+# Solo Project
 
-## Steps to setup
+## Instructions
 
-1. `git clone git@github.com:ZaneN8/react_rails_router_starter.git <project-name>`
+This is an Individual project, that will be due towards the end of the cohort. This should be a project that you can add to your resume as a passion project/ something to show off to a potential employer. It should be something you can continue working on after the cohort has ended. You can use clone your starter project to get started with this. I will be doing mock interviews using this project as both a type of application and to lead the interview. Think about this less of an assignment for school and more like an actual project that is going out in the real world, so things like linted code that follows convection and a clean UI/UX, bug free, etc is important.
 
-2. `cd <project-name>`
-3. run `bundle install`
+Loose Requirements - \*required
 
-4. In `database.yml` change name of database react_rails_router_starter to `<project-name>` using TODOS
-
-5. run `rails db:create db:migrate db:seed`
-
-- Check seeds page
-
-6. `rails s -p 3001` to start rails server
-7. `cd client && yarn start` to start yarn server
-
-### handle git
-
-- you can ether remove the remote and add your own, or you can remove the git repo. Remove the remote keeps the commit history from the starter project. `rm -rf .git` will completely remove it.
-
-8. remove origin `git remote rm origin`
-   `git remote add origin <ssh-link>`
-9. or `rm -rf .git` && `git init`
-
-10. start servers
-
-11. Remove ReadMe
-
-- Link to faker: https://github.com/faker-ruby/faker
-- Link to Bootstrap: https://react-bootstrap.netlify.app/components/alerts
+1. Rails API \*
+2. React Frontend \*
+3. React Router \*
+4. Pushed to Heroku \*
+5. Pushed to Github \*
+6. Authentication (Protected Routes/ API calls)
+7. Styled Components
+8. Form/Data Validations(frontend and backend)
+9. Custom SQL Queries
+10. Model methods
+11. Model Assiocation has_many through
+12. Custom routes
+13. UI/UX - error handling, loading spinners, meaningful messages, etc
+14. 3rd party library/gem integration, not used in class
+15. Using a third-party API
+16. Custom react components
+17. Have other people contribute to your repo/you contribute (Fork it and pull request)
