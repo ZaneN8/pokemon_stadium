@@ -22,6 +22,8 @@ gem "puma", "~> 4.1"
 gem "faker", :git => "https://github.com/faker-ruby/faker.git", :branch => "master"
 
 gem "devise_token_auth"
+gem 'poke-api-v2'
+
 
 
 # Reduces boot times through caching; required in config/boot.rb

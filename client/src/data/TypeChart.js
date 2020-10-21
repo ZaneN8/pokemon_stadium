@@ -1,4 +1,5 @@
 // 0 = Normal, 1 = Half Damage, 2 = Double Damage, 3 = Immune
+// 1 = Normal, 0.5 = Half Damage, 2 = Double Damage, 0 = Immune
 
 export const TypeChart = {
   Normal: {
